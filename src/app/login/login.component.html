@@ -1,0 +1,28 @@
+<form  name="form-signin" (ngSubmit)="logToService()">
+    <div class="form-container">
+        <div class="form-sub-container">
+            <label for="login">
+                Użytkownik:
+            </label>
+            <input type="text" name="login" id="login" [(ngModel)]="login" />
+        </div>
+        <div class="form-sub-container">
+            <label for="login">
+                Hasło:
+            </label>
+
+
+            <input type="password" name="password" id="password" [(ngModel)]="password" />
+        </div>
+        <div class="form-sub-container">
+            <label for="captcha">
+                Przepisz kod:
+            </label>
+            <input type="text" name="captcha" login="captcha">
+            <b>CAPTCHA</b>
+        </div>
+        <button (click)="forgetPassword()">Zapomniales hasla ?</button>
+        <input type="submit" value="Login" />
+    </div>
+
+</form>
