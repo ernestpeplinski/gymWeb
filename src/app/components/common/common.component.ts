@@ -12,9 +12,9 @@ export class CommonComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    if(Users.loggedUser==null){
-      this.router.navigate(['/login']);
-    }
+    // if(Users.loggedUser==null){
+    //   this.router.navigate(['/login']);
+    // }
   }
 
 }

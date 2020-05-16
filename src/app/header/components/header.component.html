@@ -8,15 +8,14 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-              <a class="nav-link" href="#">Bez sprzętu <span class="sr-only">(current)</span></a>
+              <span class="nav-link" (click)="setCategories(2)" >Bez sprzętu </span>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Z maszynami</a>
+              <span class="nav-link" (click)="setCategories(1)" >Z maszynami</span>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Street workout</a>
+              <span class="nav-link" (click)="setCategories(0)" >Street workout</span>
           </li>
-
       </ul>
 
   </div>

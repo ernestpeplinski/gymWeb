@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CategoriesHandler} from '../../model/excercises';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+
+
   constructor() { }
 
   ngOnInit() {
   }
 
+setCategories(choose :number){
+  CategoriesHandler.setCategories(choose);
+  console.log(CategoriesHandler.getCategories());
+}
+get getCategories(){
+  return CategoriesHandler.getCategories();
+}
 }
