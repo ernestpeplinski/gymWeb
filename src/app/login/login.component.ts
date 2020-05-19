@@ -30,7 +30,7 @@ randomCaptcha :number;
     if(tryLogUser === undefined){
       return;
     }
-    if(+this.validcaptcha===this.randomCaptcha){
+    if(+this.validcaptcha!=this.randomCaptcha){
       return;
     }
     Users.loggedUser = tryLogUser;
