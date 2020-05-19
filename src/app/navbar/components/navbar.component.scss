@@ -47,7 +47,20 @@ body{
 }
 
 .wrapper .sidebar ul li:hover{
-  background-color: #594f8d;
+  background-color: #d9dbda44;
+}
+
+.wrapper .sidebar .sidebar-element{
+  border: 0px;
+  border-bottom: 0.1vh;
+  opacity: 0.6;
+  border-style: solid;
+  border-color: black
+}
+.wrapper .sidebar .sidebar-element:hover{
+  cursor: pointer;
+  opacity: 1;
+
 }
 
 .wrapper .sidebar ul li:hover a{

@@ -6,13 +6,13 @@
         <ul>
             <li *ngFor="let category of Categories">
                 <p>
-                    <button type="button" (click)="category.isCollapsed = !category.isCollapsed"
+                    <span type="button" (click)="category.isCollapsed = !category.isCollapsed"
                             [attr.aria-expanded]="!category.isCollapsed" >
                       {{category.name}}
-                    </button>
+                    </span>
                   </p>
                   <div id="{{ 'collapseExample' + category.name }}" [ngbCollapse]="!category.isCollapsed">
-                    <div *ngFor="let excercise of category.excercises" (click)="setCurrentExcercise(excercise)">
+                    <div class="sidebar-element" *ngFor="let excercise of category.excercises" (click)="setCurrentExcercise(excercise)">
                         {{excercise.name}}
                     </div>
                   </div>
@@ -20,7 +20,7 @@
         </ul>
     </div>
     <div class="main_content">
-        <div class="header">Welcome!! Have a nice day.</div>
+        <div class="header"> {{currentExcercise.name}}</div>
         <div class="info">
             {{currentExcercise.description || 'Wybierz Cwiczenie'}}
         </div>
