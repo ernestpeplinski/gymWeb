@@ -50,5 +50,6 @@ class Category{
 export class Excercise {
     public name :string
     public description :string
+    public photoLink :string
 }
 

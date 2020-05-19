@@ -30,24 +30,29 @@ export class GymExcercises{
         "excercises": [
             {
                "name":"Pompki na poręczach",
-               "description":"Połóż dłonie na poręczach równolegle do siebie. Ramiona trzymaj wyprostowane, ale nie zablokowane w łokciach. Mając nogi lekko ugięte w kolanach, powoli opuść się na tyle, abyś mógł unieść korpus i wykonać pompkę. Im niżej się opuścisz, tym mocniej będą pracowały mięśnie klatki piersiowej. Ale musisz się jeszcze podnieść."
+               "description":"Połóż dłonie na poręczach równolegle do siebie. Ramiona trzymaj wyprostowane, ale nie zablokowane w łokciach. Mając nogi lekko ugięte w kolanach, powoli opuść się na tyle, abyś mógł unieść korpus i wykonać pompkę. Im niżej się opuścisz, tym mocniej będą pracowały mięśnie klatki piersiowej. Ale musisz się jeszcze podnieść.",
+               "photoLink":"https://www.menshealth.pl/media/lib/186/klatka08-0866a9a0472dd3d359396c91e1673fa5.jpg"
             },
             {
                 "name":"Rozpiętki na ławce poziomej",
-                "description":"Połóż się na ławeczce poziomej na plecach. Weź w każdą rękę sztangielkę i trzymaj je w wyprostowanych ramionach, równolegle do siebie i złączone nad klatką piersiową. Sztangielki powinny być lżejsze od tych, których używasz przy wyciskaniu. Zaczynając z tej pozycji, szerokim łukiem opuść sztangielki na boki. Ramiona trzymaj lekko ugięte w łokciach. Maksymalnie rozciągnij klatkę piersiową i powoli powróć do pozycji wyjściowej."
-             },
+                "description":"Połóż się na ławeczce poziomej na plecach. Weź w każdą rękę sztangielkę i trzymaj je w wyprostowanych ramionach, równolegle do siebie i złączone nad klatką piersiową. Sztangielki powinny być lżejsze od tych, których używasz przy wyciskaniu. Zaczynając z tej pozycji, szerokim łukiem opuść sztangielki na boki. Ramiona trzymaj lekko ugięte w łokciach. Maksymalnie rozciągnij klatkę piersiową i powoli powróć do pozycji wyjściowej.",
+                "photoLink":"https://www.menshealth.pl/media/lib/186/klatka03-6f8280c54b10c4f401078361eed96f77.jpg"
+               },
              {
                 "name":"Ściąganie linek wyciągu górnego",
-                "description":"Stań w bramie (bokiem między wyciągami), tułów lekko pochyl, nogi ugięte i rozstawione na szerokość barków. Z uchwytem wyciągów górnych w każdej dłoni, unieś ramiona, dłonie skieruj wewnętrzną stroną w kierunku podłogi i lekko zegnij ramiona w łokciach. Z tej pozycji powoli szerokim łukiem opuść ramiona, aż do skrzyżowania ich przed sobą. Następnie powoli wracaj do pozycji wyjściowej."
-             },
+                "description":"Stań w bramie (bokiem między wyciągami), tułów lekko pochyl, nogi ugięte i rozstawione na szerokość barków. Z uchwytem wyciągów górnych w każdej dłoni, unieś ramiona, dłonie skieruj wewnętrzną stroną w kierunku podłogi i lekko zegnij ramiona w łokciach. Z tej pozycji powoli szerokim łukiem opuść ramiona, aż do skrzyżowania ich przed sobą. Następnie powoli wracaj do pozycji wyjściowej.",
+                "photoLink":"https://www.menshealth.pl/media/lib/186/klatka05-8c01a455e5daf9a082f56f32aeace43c.jpg"
+               },
              {
                 "name":"Wyciskanie hantli na ławce z głową w dół",
-                "description":"Połóż się na ławeczce skośnej na plecach głową w dół i chwyć sztangielki nachwytem. Sztangielki trzymaj w jednej linii na lekko ugiętych ramionach, złączone nad klatką piersiową. Powoli opuść je, odwodząc łokcie na bok, tak by znalazły się jak najniżej. Potem powoli wróć do pozycji wyjściowej. Zwróć szczególną uwagę na fazę opuszczania sztangielek nad klatką piersiową - rozpocznij to ćwiczenie od mniejszych ciężarów. Gdy prawidłowo będziesz je wykonywał, możesz zwiększyć ciężar."
-             },
+                "description":"Połóż się na ławeczce skośnej na plecach głową w dół i chwyć sztangielki nachwytem. Sztangielki trzymaj w jednej linii na lekko ugiętych ramionach, złączone nad klatką piersiową. Powoli opuść je, odwodząc łokcie na bok, tak by znalazły się jak najniżej. Potem powoli wróć do pozycji wyjściowej. Zwróć szczególną uwagę na fazę opuszczania sztangielek nad klatką piersiową - rozpocznij to ćwiczenie od mniejszych ciężarów. Gdy prawidłowo będziesz je wykonywał, możesz zwiększyć ciężar.",
+                "photoLink":"https://www.menshealth.pl/media/lib/186/klatka06-3dbfda0b0245a95d36b751113d30655d.jpg"
+               },
              {
                 "name":"Wyciskanie sztangi na ławce skośnej",
-                "description":"Połóż się na ławce na plecach i chwyć sztangę nachwytem szerzej niż szerokość barków. Sztang ę na lekko ugiętych ramionach trzymaj nad klatką piersiową. Powoli ją opuść, a potem wróć do pozycji wyjściowej."
-             }
+                "description":"Połóż się na ławce na plecach i chwyć sztangę nachwytem szerzej niż szerokość barków. Sztang ę na lekko ugiętych ramionach trzymaj nad klatką piersiową. Powoli ją opuść, a potem wróć do pozycji wyjściowej.",
+                "photoLink":"https://www.menshealth.pl/media/lib/186/klatka01-f16fa89fe29e48476a5d17504dcbeb31.jpg"
+               }
         ]
     },
     {
