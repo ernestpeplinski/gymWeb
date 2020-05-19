@@ -2,6 +2,37 @@
     width: 100%;
 }
 .form-sub-container{
-    width: 100%;
+    width: 400px;
     text-align: left;
+}
+
+input {
+    margin :2px;
+}
+label {
+    margin: 4px;
+}
+form {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.captcha{
+    border: solid white 1px;
+    padding: 2px;
+    margin-left: 2px;
+}
+.submit{
+    padding-left: 5px;padding-right: 5px; border-radius: 4px; background-color: green; color: white;
+    margin: 5px;
+    margin-right: 0px;
+}
+.forgetPassword{
+    margin: 5px;
+    border-radius: 4px; 
+    background-color: blue; 
+    color: white;
 }

@@ -11,9 +11,12 @@ export class LoginComponent implements OnInit {
 
 login: string="";
 password: string="";
+hiddenMessage :string="";
+validcaptcha :string="";
 
+randomCaptcha :number;
   constructor(private router: Router) {
-
+   this.randomCaptcha =  Math.floor(Math.random() * (1000 - 100)) + 100;
   }
 
   ngOnInit() {
@@ -27,11 +30,14 @@ password: string="";
     if(tryLogUser === undefined){
       return;
     }
+    if(+this.validcaptcha===this.randomCaptcha){
+      return;
+    }
     Users.loggedUser = tryLogUser;
     this.router.navigate(['/commonComponent']);
   }
   forgetPassword() {
-   console.log("Po chuj zapominasz ?");
+    this.hiddenMessage = "Tu jest podpowiedz na haslo";
   }
 
 }

@@ -1,28 +1,32 @@
 <form  name="form-signin" (ngSubmit)="logToService()">
     <div class="form-container">
         <div class="form-sub-container">
-            <label for="login">
-                Użytkownik:
-            </label>
-            <input type="text" name="login" id="login" [(ngModel)]="login" />
-        </div>
-        <div class="form-sub-container">
-            <label for="login">
-                Hasło:
-            </label>
 
-
-            <input type="password" name="password" id="password" [(ngModel)]="password" />
+            <div style="float:left; width: 30%;">
+                <label for="login">
+                    Użytkownik:
+                </label><br>
+                <label for="password">
+                    Hasło:
+                </label><br>
+                <label for="captcha">
+                    Przepisz kod: <b style="background-color: yellowgreen; border-radius: 10px; font-size: 10px; width: 30px;">&nbsp;?&nbsp;</b>
+                </label><br>
+            </div>
+            <div style="float:left;margin-left: 1px; width: 60%;">
+                <input type="text" name="login" id="login" [(ngModel)]="login" /><br>
+                <input type="password" name="password" id="password" [(ngModel)]="password" />
+                <input type="text" name="captcha" login="captcha" style="width: 60%;" [(ngModel)]="validcaptcha"><b class="captcha">{{randomCaptcha}}</b>
+            </div>
+            <div style="text-align: left; padding-left: 40px; margin-left: 40px;">
+                <button (click)="forgetPassword()" class="forgetPassword">Zapomniales hasla ?</button>
+                <input type="submit" value="Login" class="submit"/>
+            </div>
+            <div style="margin-left: 100px;" *ngIf="(validcaptcha != randomCaptcha+'')&&validcaptcha.length!=0">Captcha is not valid</div>
+            <div style="margin-left: 100px;">{{hiddenMessage || ''}}</div>
+           
         </div>
-        <div class="form-sub-container">
-            <label for="captcha">
-                Przepisz kod:
-            </label>
-            <input type="text" name="captcha" login="captcha">
-            <b>CAPTCHA</b>
-        </div>
-        <button (click)="forgetPassword()">Zapomniales hasla ?</button>
-        <input type="submit" value="Login" />
+        
     </div>
 
 </form>
